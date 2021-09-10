@@ -229,13 +229,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: auto;
 }
 .banner-text {
   font-size: 7rem;
   font-family: "josefin sans", sans-serif;
   font-weight: 400;
   letter-spacing: 0.1rem;
-  margin-bottom: 0;
+  margin: 0 auto;
   animation: anim 2s;
   color: #eee;
 }
@@ -544,8 +545,7 @@ body {
 }
 .customers-card-p2 {
   font-family: "josefin sans", sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: 0.1rem;
+  font-size: 1rem;
   margin: 0.4rem 0;
 }
 /* end of customers */
@@ -589,7 +589,7 @@ body {
 .footer-contact-input {
   border: 0;
   padding-left: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 1rem;
   outline: none;
 }
@@ -652,3 +652,141 @@ body {
   color: orange;
 }
 /* end of footer */
+/* media queries */
+@media screen and (max-width: 1000px) {
+  .banner-text {
+    font-size: 5rem;
+  }
+  .about-us-heading {
+    font-size: 3rem;
+  }
+  .common-header-heading {
+    font-size: 3rem;
+  }
+  .rooms-btn {
+    font-size: 1rem;
+  }
+  .rooms-card-price {
+    font-size: 2rem;
+  }
+  .footer-contact-input {
+    width: 8rem;
+    font-size: 1rem;
+    padding: 0 0 0 0.2rem;
+  }
+  .footer-contact-btn {
+    font-size: 0.8rem;
+    width: 4rem;
+    padding: 0.4rem;
+  }
+  .customers-card-name {
+    font-size: 1.4rem;
+  }
+  .customers-card-p1 {
+    font-size: 1rem;
+  }
+  .customers-card-p2 {
+    font-size: 0.9rem;
+  }
+  .about-us-content {
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .about-us {
+    flex-direction: column;
+    height: 70rem;
+    padding: 5rem 5rem;
+  }
+  .customers-card-wrapper {
+    flex-direction: column;
+  }
+  .footer-main-part {
+    flex-direction: column;
+  }
+  .footer-list {
+    display: flex;
+  }
+  .customers-card-p2 {
+    font-size: 1.2rem;
+  }
+  .footer-contact-input {
+    width: 10rem;
+    font-size: 1rem;
+    padding: 0 0 0 0.4rem;
+  }
+  .footer-contact-btn {
+    font-size: 0.8rem;
+    width: 6rem;
+    padding: 0.8rem;
+  }
+  .custiomers-p {
+    font-size: 1rem;
+    padding: auto 2rem;
+    width: 100%;
+  }
+  .brand-text {
+    font-size: 1.5rem;
+  }
+  .brand-img {
+    width: 40px;
+  }
+  .customers-card {
+    flex-direction: column;
+    height: 30rem;
+    margin: 2rem auto;
+    width: 80%;
+  }
+  .customers-card-img {
+    margin-left: 0;
+  }
+  .customers-card-img-w {
+    margin: 0 auto;
+  }
+  .customers-card-info {
+    text-align: center;
+  }
+  .customers-card-p2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .banner-text {
+    font-size: 3rem;
+  }
+  .about-us-heading {
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: 600px) {
+    .footer-a {
+      font-size: 1.2rem;
+    }
+    .footer-heading {
+      font-size: 1.4rem;
+    }
+    .footer-gallery {
+      margin-top: 2rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .image {
+      width: 20rem;
+    }
+    .footer-copyright {
+      flex-direction: column;
+    }
+    .footer-copyright-c {
+      order: 1;
+      text-align: center;
+      font-size: 1rem;
+    }
+    .footer-text-right {
+      text-align: center;
+      font-size: 1rem;
+    }
+    .footer-list {
+      flex-direction: column;
+    }
+  }
+}
+/* end of media queries */
