@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
+  z-index: 10;
 }
 .menu-icon {
   margin-top: 3rem;
@@ -89,6 +89,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   transition: left 0.5s cubic-bezier(1, 0, 0, 1);
+  z-index: 5;
 }
 .navigation-heading {
   font-family: "josefin sans", sans-serif;
