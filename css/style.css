@@ -788,5 +788,92 @@ body {
       flex-direction: column;
     }
   }
+  @media screen and (max-width: 500px) {
+    .banner-text {
+      font-size: 2rem;
+    }
+    .banner-p {
+      font-size: 1.2rem;
+    }
+    .banner-btn {
+      font-size: 1rem;
+      padding: 0.4rem 1rem;
+    }
+    .about-us-heading {
+      font-size: 1.5rem;
+    }
+    .small-underline {
+      width: 6rem;
+    }
+    .big-underline {
+      width: 10rem;
+    }
+    .about-us-sub-heading {
+      font-size: 1.5rem;
+    }
+    .about-us-p {
+      font-size: 1rem;
+    }
+    .about-us-btn {
+      font-size: 0.8rem;
+    }
+    .image {
+      width: 12rem;
+    }
+    .about-us {
+      height: 40rem;
+      padding: 5rem 2rem;
+    }
+    .about-us-content {
+      padding-top: 0;
+    }
+    .rooms-btn {
+      font-size: 0.8rem;
+      padding: 0.4rem 0.5rem;
+    }
+    .customers-card-img {
+      width: 15rem;
+    }
+    .customers-card-p2 {
+      font-size: 1rem;
+    }
+    .footer-copyright-c {
+      font-size: 0.8rem;
+    }
+    .footer-text-right {
+      font-size: 0.8rem;
+    }
+    .fas fa-heart {
+      font-size: 1rem;
+    }
+    .common-header-heading {
+      font-size: 1.5rem;
+    }
+    .custiomers-p {
+      font-size: 0.8rem;
+    }
+    .rooms-small-underline {
+      width: 6rem;
+    }
+    .rooms-big-underline {
+      width: 10rem;
+    }
+    .navigation {
+      width: 25rem;
+    }
+    .navigation-heading {
+      font-size: 2rem;
+    }
+    .navigation-search-input {
+      width: 15rem;
+      font-size: 1rem;
+    }
+    .navigation-link {
+      font-size: 1.2rem;
+    }
+    .copyright {
+      font-size: 1rem;
+    }
+  }
 }
 /* end of media queries */
